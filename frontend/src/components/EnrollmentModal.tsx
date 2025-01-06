@@ -156,6 +156,13 @@ export default function EnrollmentModal({
             // Handle successful payment
             onClose();
             navigate("/payment/success");
+            const paymentData = {
+              courseData: course,
+              billingDetails: formData,
+              invoiceNumber: "INV-2024-001",
+              purchaseDate: new Date().toLocaleDateString(),
+            };
+            navigate("/payment/success", { state: paymentData });
           } catch (error) {
             console.error("Payment verification error:", error);
             setError("Payment verification failed. Please contact support.");

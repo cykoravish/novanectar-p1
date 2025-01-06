@@ -3,6 +3,7 @@ import landing from "../assets/landing.jpg";
 import { QueryFormData } from "../types";
 import { queyForm } from "../api/services";
 import toast from "react-hot-toast";
+import { Link } from "react-router-dom";
 
 export default function Landing() {
   const [loading, setLoading] = useState(false);
@@ -54,13 +55,16 @@ export default function Landing() {
             <span className="text-blue-500">In-Demand Skills</span> for
             tomorrow's jobs
           </h2>
-          <p className="text-lg">
+          <p className="text-lg pb-8">
             Our platform makes education flexible and convenient, so you can
             achieve your goals wherever and whenever you choose.
           </p>
-          <button className="px-6 py-3 bg-transparent border border-white text-white font-semibold rounded-lg shadow-md">
+          <Link
+            to="/courses"
+            className="px-6 py-3 bg-transparent border border-white text-white font-semibold rounded-lg shadow-md"
+          >
             Enroll now for courses
-          </button>
+          </Link>
         </div>
 
         {/* Right Content: Enquiry Form */}

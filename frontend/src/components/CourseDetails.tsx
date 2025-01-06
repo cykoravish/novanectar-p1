@@ -4,25 +4,22 @@ import { useParams, useNavigate } from "react-router-dom";
 import { coursesCards } from "../data/courses";
 import EnrollmentModal from "./EnrollmentModal";
 import { useState } from "react";
+import CourseSlip from "./CourseSlip";
 // import { Course } from '../types';
-
 
 interface OpenSections {
   [key: number]: boolean;
 }
-
 
 export default function CourseDetails() {
   const { courseId } = useParams();
   const navigate = useNavigate();
   const [isEnrollModalOpen, setIsEnrollModalOpen] = useState(false);
 
-
-
   const [openSections, setOpenSections] = useState<OpenSections>({});
   console.log("openSession", openSections);
 
-  const toggleSection = (section:number) => {
+  const toggleSection = (section: number) => {
     setOpenSections((prevState) => ({
       ...prevState,
       [section]: !prevState[section],
@@ -31,7 +28,7 @@ export default function CourseDetails() {
 
   // const course = coursesCards.find((course) => course.id === courseId) as Course;
   const course = coursesCards.find((course) => course.id === courseId);
-
+  // console.log("course: ", course);
   if (!course) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -84,7 +81,7 @@ export default function CourseDetails() {
           onClose={() => setIsEnrollModalOpen(false)}
           course={course}
         />
-{/* {  console.log("isEnrollModalOpen: ", isEnrollModalOpen)} */}
+        {/* {  console.log("isEnrollModalOpen: ", isEnrollModalOpen)} */}
         <div className="flex justify-between text-sm text-gray-900 max-w-lg mb-6">
           <p className="font-semibold text-balck">
             Number of learners:{" "}
@@ -138,12 +135,10 @@ export default function CourseDetails() {
                 </div>
               ))}
             </div>
-            <button className="mt-6 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
-              Download PDF
-            </button>
           </div>
         </div>
       </div>
+      <CourseSlip courseData={course} />
     </div>
   );
 }

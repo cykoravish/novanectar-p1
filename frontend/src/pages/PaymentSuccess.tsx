@@ -1,6 +1,9 @@
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import CourseInvoice from "../components/CourseInvoice";
 
 export default function PaymentSuccess() {
+  const location = useLocation();
+  const paymentData = location.state;
   const navigate = useNavigate();
   return (
     <div className="flex items-center justify-center h-screen bg-gradient-to-br from-blue-100 to-blue-400">
@@ -26,6 +29,19 @@ export default function PaymentSuccess() {
           Thank you for your payment. Your transaction was completed
           successfully.
         </p>
+        {/* <div>
+          <h1>Payment Success</h1>
+          <p>Amount: {paymentData?.amount}</p>
+          <p>Transaction ID: {paymentData?.transactionId}</p>
+          <p>Status: {paymentData?.status}</p>
+        </div> */}
+
+        <CourseInvoice
+          courseData={paymentData?.courseData}
+          billingDetails={paymentData?.billingDetails}
+          invoiceNumber="INV-2024-001"
+          purchaseDate={new Date().toLocaleDateString()}
+        />
         <button
           onClick={() => navigate("/")}
           className="mt-6 px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2"
