@@ -1,138 +1,140 @@
-// src/components/Layout.tsx
-import { NavLink, Outlet, useNavigate } from "react-router-dom";
-import { Suspense, useState } from "react";
-import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import logo from "../assets/logo.png";
 
 const Layout = () => {
-  const navigate = useNavigate();
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location]);
+
+  const navItems = [
+    { to: "/", label: "Home" },
+    { to: "/courses", label: "Courses" },
+    { to: "/internships", label: "Internships" },
+    { to: "/contact-us", label: "Contact Us" },
+    { to: "/session-book", label: "Book" },
+  ];
+
   return (
-    <div className="">
-      <div className="bg-blue-300 w-full flex flex-col justify-center items-center gap-2">
-        <nav className="flex justify-between items-center py-3 px-8 my-3 w-full max-w-6xl mx-auto bg-white rounded-md">
-          {/* Logo */}
-          <div className="flex items-center">
-            <img src={logo} alt="logo" className="w-6 h-6" />
-            <h1 className="text-lg font-bold">NOVANECTAR</h1>
-          </div>
+    <div className="min-h-screen flex flex-col">
+      {/* Gradient background container */}
+      <div className="fixed top-0 left-0 right-0 h-24 z-40 bg-gradient-to-r from-blue-300 to-white" />
+      
+      {/* Header with navbar */}
+      <header className="fixed top-0 left-0 right-0 z-50 px-4 py-2">
+        <nav className="max-w-6xl mx-auto">
+          {/* White container with shadow */}
+          <div className="bg-white rounded-lg shadow-[2px_2px_10px_rgba(0,0,0,0.1)] border border-gray-100">
+            <div className="flex justify-between items-center px-6 py-3">
+              {/* Logo */}
+              <motion.div 
+                className="flex items-center"
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+              >
+                <img src={logo} alt="logo" className="w-8 h-8 mr-2" />
+                <div className="flex flex-col">
+                  <h1 className="text-lg font-bold text-gray-800">NOVANECTAR</h1>
+                  <span className="text-[10px] text-gray-500">SERVICES PVT. LTD.</span>
+                </div>
+              </motion.div>
 
-          {/* Desktop Menu */}
-          <div className="hidden md:flex gap-8 font-semibold">
-            <NavLink
-              to={"/"}
-              className={({ isActive }) =>
-                isActive ? "text-blue-800" : "text-black"
-              }
-            >
-              Home
-            </NavLink>
-            <NavLink
-              to={"/courses"}
-              className={({ isActive }) =>
-                isActive ? "text-blue-800" : "text-black"
-              }
-            >
-              Courses
-            </NavLink>
-            <NavLink
-              to={"/internships"}
-              className={({ isActive }) =>
-                isActive ? "text-blue-800" : "text-black"
-              }
-            >
-              Internships
-            </NavLink>
-            <NavLink
-              to={"/contact-us"}
-              className={({ isActive }) =>
-                isActive ? "text-blue-800" : "text-black"
-              }
-            >
-              Contact Us
-            </NavLink>
-            <NavLink
-              to={"/session-book"}
-              className={({ isActive }) =>
-                isActive ? "text-blue-800" : "text-black"
-              }
-            >
-             Book
-            </NavLink>
-          </div>
+              {/* Desktop Menu */}
+              <div className="hidden md:flex items-center space-x-1">
+                {navItems.map((item) => (
+                  <NavLink
+                    key={item.to}
+                    to={item.to}
+                    className={({ isActive }) =>
+                      `px-4 py-2 text-base font-medium rounded-md transition-colors duration-200 ${
+                        isActive
+                          ? "text-blue-600 bg-blue-50"
+                          : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                      }`
+                    }
+                  >
+                    {item.label}
+                  </NavLink>
+                ))}
+              </div>
 
-          {/* Hamburger Menu for Mobile */}
-          <div className="flex md:hidden">
-            <button onClick={toggleMenu}>
-              {isMenuOpen ? (
-                <HiOutlineX size={24} />
-              ) : (
-                <HiOutlineMenuAlt3 size={24} />
+              {/* Hamburger Menu for Mobile */}
+              <motion.button
+                className="md:hidden text-gray-700 focus:outline-none"
+                onClick={toggleMenu}
+                whileTap={{ scale: 0.95 }}
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <motion.path
+                    d={isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+                    variants={{
+                      closed: { d: "M4 6h16M4 12h16M4 18h16" },
+                      open: { d: "M6 18L18 6M6 6l12 12" }
+                    }}
+                    initial="closed"
+                    animate={isMenuOpen ? "open" : "closed"}
+                    transition={{ duration: 0.3 }}
+                  />
+                </svg>
+              </motion.button>
+            </div>
+
+            {/* Mobile Menu */}
+            <AnimatePresence>
+              {isMenuOpen && (
+                <motion.div
+                  className="md:hidden"
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.2, ease: "easeInOut" }}
+                >
+                  <div className="flex flex-col space-y-1 p-4 border-t border-gray-100">
+                    {navItems.map((item) => (
+                      <NavLink
+                        key={item.to}
+                        to={item.to}
+                        className={({ isActive }) =>
+                          `px-4 py-2 text-sm font-medium rounded-md transition-colors duration-200 ${
+                            isActive
+                              ? "text-blue-600 bg-blue-50"
+                              : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                          }`
+                        }
+                      >
+                        {item.label}
+                      </NavLink>
+                    ))}
+                  </div>
+                </motion.div>
               )}
-            </button>
+            </AnimatePresence>
           </div>
         </nav>
+      </header>
 
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="flex flex-col gap-4 w-full items-center md:hidden bg-blue-100 p-4 font-semibold">
-            <button
-              onClick={() => {
-                navigate("/");
-                setIsMenuOpen(false);
-              }}
-            >
-              Home
-            </button>
-            <button
-              onClick={() => {
-                navigate("/courses");
-                setIsMenuOpen(false);
-              }}
-            >
-              Courses
-            </button>
-            <button
-              onClick={() => {
-                navigate("/internships");
-                setIsMenuOpen(false);
-              }}
-            >
-              Internship
-            </button>
-            <button
-              onClick={() => {
-                navigate("/contact-us");
-                setIsMenuOpen(false);
-              }}
-            >
-              Contact Us
-            </button>
-            <button
-              onClick={() => {
-                navigate("/session-book");
-                setIsMenuOpen(false);
-              }}
-            >
-              Book
-            </button>
-          </div>
-        )}
-      </div>
-
-      <main>
-        <Suspense fallback={<div>Loading...</div>}>
-          <Outlet />
-        </Suspense>
+      <main className="flex-grow mt-24 w-full">
+        <Outlet />
       </main>
     </div>
   );
 };
 
 export default Layout;
+
