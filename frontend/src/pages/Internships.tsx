@@ -8,12 +8,13 @@ export default function Internships() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   const [isEnrollModalOpen, setIsEnrollModalOpen] = useState(false);
   const [selectedInternship, setSelectedInternship] = useState({});
-  console.log("selectedInternship: ", selectedInternship)
+  console.log("selectedInternship: ", selectedInternship);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const internshipHandler = (domain: any) => {
     console.log("domain: ", domain);
-    const internshipCourse = internshipData.find((course) => course.id === domain.id);
-    setSelectedInternship(internshipCourse);
+    // const internshipCourse = internshipData.find((course) => course.id === domain.id);
+    setIsEnrollModalOpen(true);
+    setSelectedInternship(domain);
   };
   return (
     <>
@@ -145,12 +146,12 @@ export default function Internships() {
                   />
                 </div>
               ))}
+              <EnrollmentModal
+                isOpen={isEnrollModalOpen}
+                onClose={() => setIsEnrollModalOpen(false)}
+                course={selectedInternship}
+              />
             </div>
-            <EnrollmentModal
-              isOpen={isEnrollModalOpen}
-              onClose={() => setIsEnrollModalOpen(false)}
-              course={selectedInternship}
-            />
           </div>
         </div>
       </div>

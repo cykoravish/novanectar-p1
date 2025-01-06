@@ -608,11 +608,10 @@ export const internshipData = [
     hoverColor: "hover:bg-blue-100",
     image: internImages.intern1,
 
-
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -668,11 +667,6 @@ export const internshipData = [
     ],
     price: 1999,
     duration: "6 months",
-
-
-
-
-
   },
   {
     id: 2,
@@ -685,11 +679,10 @@ export const internshipData = [
     hoverColor: "hover:bg-gray-100",
     image: internImages.intern2,
 
-
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -745,9 +738,6 @@ export const internshipData = [
     ],
     price: 1999,
     duration: "6 months",
-
-
-
   },
   {
     id: 3,
@@ -763,7 +753,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -833,7 +823,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -903,7 +893,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -973,7 +963,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -1043,7 +1033,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -1113,7 +1103,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -1183,7 +1173,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -1253,7 +1243,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -1323,7 +1313,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -1391,7 +1381,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -1459,7 +1449,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -1527,7 +1517,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -1595,7 +1585,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
@@ -1663,7 +1653,7 @@ export const internshipData = [
     category: "Technology",
 
     title_: "Java Programming Course",
-       description_:
+    description_:
       "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
 
     features: [
