@@ -78,8 +78,7 @@ const CourseSlip: React.FC<CourseSlipProps> = ({ courseData }) => {
     
     // Content sections
     yPos += 5;
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    courseData.content.forEach((section, index) => {
+    courseData.content.forEach((section) => {
       const contentData = [
         [`${section.title} (${section.lectures} lectures • ${section.duration})`],
         ...section.content.slice(0, 2).map(lecture => [`• ${lecture}`])
