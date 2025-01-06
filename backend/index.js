@@ -4,6 +4,7 @@ import cors from "cors";
 import { dbConnect } from "./src/lib/dbConnect.js";
 import router from "./src/query/query.route.js";
 import paymentRouter from "./src/orders/order.route.js";
+import contactRouter from "./src/contacts/contacts.route.js";
 
 dotenv.config();
 const app = express();
@@ -19,6 +20,7 @@ app.use(
 app.use(express.json());
 app.use("/api", router);
 app.use("/api", paymentRouter);
+app.use("/api", contactRouter);
 const PORT = process.env.PORT || 5000;
 
 dbConnect().then(() => {

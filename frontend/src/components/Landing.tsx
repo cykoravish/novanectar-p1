@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import landing from "../assets/landing.jpg";
 import { QueryFormData } from "../types";
 import { queyForm } from "../api/services";
-import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
 
 export default function Landing() {
@@ -26,7 +25,6 @@ export default function Landing() {
     try {
       setLoading(true);
       await queyForm.submitForm(formData);
-      toast.success("Form submitted successfully");
     } catch (error) {
       console.log("error: ", error);
     } finally {

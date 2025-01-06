@@ -607,6 +607,72 @@ export const internshipData = [
     iconBg: "bg-blue-500",
     hoverColor: "hover:bg-blue-100",
     image: internImages.intern1,
+
+
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
+
+
+
+
+
   },
   {
     id: 2,
@@ -618,6 +684,70 @@ export const internshipData = [
     iconBg: "bg-gray-800",
     hoverColor: "hover:bg-gray-100",
     image: internImages.intern2,
+
+
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
+
+
+
   },
   {
     id: 3,
@@ -629,6 +759,66 @@ export const internshipData = [
     iconBg: "bg-purple-600",
     hoverColor: "hover:bg-purple-100",
     image: internImages.intern3,
+
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 4,
@@ -640,6 +830,65 @@ export const internshipData = [
     iconBg: "bg-cyan-600",
     hoverColor: "hover:bg-cyan-100",
     image: internImages.intern4,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 5,
@@ -651,6 +900,65 @@ export const internshipData = [
     iconBg: "bg-blue-600",
     hoverColor: "hover:bg-blue-100",
     image: internImages.intern5,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 6,
@@ -662,6 +970,65 @@ export const internshipData = [
     iconBg: "bg-indigo-600",
     hoverColor: "hover:bg-indigo-100",
     image: internImages.intern6,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 7,
@@ -673,6 +1040,65 @@ export const internshipData = [
     iconBg: "bg-indigo-600",
     hoverColor: "hover:bg-indigo-100",
     image: internImages.intern7,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 8,
@@ -684,6 +1110,65 @@ export const internshipData = [
     iconBg: "bg-indigo-600",
     hoverColor: "hover:bg-blue-100",
     image: internImages.intern8,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 9,
@@ -695,6 +1180,65 @@ export const internshipData = [
     iconBg: "bg-indigo-600",
     hoverColor: "hover:bg-gray-100",
     image: internImages.intern9,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 10,
@@ -706,6 +1250,65 @@ export const internshipData = [
     iconBg: "bg-indigo-600",
     hoverColor: "hover:bg-indigo-100",
     image: internImages.intern10,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 11,
@@ -717,6 +1320,65 @@ export const internshipData = [
     iconBg: "bg-indigo-600",
     hoverColor: "hover:bg-purple-100",
     image: internImages.intern11,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 12,
@@ -726,6 +1388,65 @@ export const internshipData = [
       "Design interfaces for live projects,balancing aesthetics and usability, refining user-centered design skills and adapting to project requirements for optimal user experience.",
     hoverColor: "hover:bg-blue-100",
     image: internImages.intern12,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 13,
@@ -735,6 +1456,65 @@ export const internshipData = [
       "Address real security challenges, detecting vulnerabilities and implementing countermeasures, developing a proactive mindset and hands-on experience in protecting digital assets",
     hoverColor: "hover:bg-gray-100",
     image: internImages.intern13,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 14,
@@ -744,6 +1524,65 @@ export const internshipData = [
       "Implement strategies on live campaigns, optimizing SEO, SEM, and social media channels, refining marketing skills and understanding audience engagement for measurable results",
     hoverColor: "hover:bg-blue-100",
     image: internImages.intern14,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 15,
@@ -753,6 +1592,65 @@ export const internshipData = [
       "Hone your writing skills through real-world projects, crafting compelling content across various platforms. Learn industry standards, techniques, and strategies for effective communication and engagement",
     hoverColor: "hover:bg-gray-100",
     image: internImages.intern15,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
   {
     id: 16,
@@ -762,5 +1660,64 @@ export const internshipData = [
       "Immerse yourself in the world of WordPress, tackling real projects to master customization, plugin development, and advanced techniques. Elevate skills with industry-relevant experience and expert guidance",
     hoverColor: "hover:bg-purple-100",
     image: internImages.intern16,
+    category: "Technology",
+
+    title_: "Java Programming Course",
+       description_:
+      "Novanectar's Java course: Develop Android apps, games, and enterprise software, enhancing job prospects and programming skills.",
+
+    features: [
+      "In-Depth Java Curriculum",
+      "Certificate of Completion",
+      "100% Placement Assistance",
+      "Hands-On Projects",
+      "Weekly Assignments",
+      "Mock Interviews",
+      "Interactive Coding Challenges",
+      "Experienced Mentors",
+    ],
+    courseIncludes: {
+      videoHours: "55 hours on-demand video",
+      resources: "140 downloadable resources",
+      codingExercises: "8 coding exercises",
+      articles: "60 articles",
+      certificate: "Certificate of completion",
+      access: "Access on mobile and TV",
+    },
+    stats: {
+      learners: "4,215,678",
+      practices: "2,123",
+      rating: "4.5",
+    },
+    content: [
+      {
+        title: "Introduction",
+        lectures: 2,
+        duration: "3 min",
+        content: ["Lecture 1: Overview", "Lecture 2: Basics"],
+      },
+      {
+        title: "SQL",
+        lectures: 35,
+        duration: "2 hr 55 min",
+        content: [
+          "Lecture 1: Introduction to SQL",
+          "Lecture 2: Queries",
+          "...",
+        ],
+      },
+      {
+        title: "Introduction to Statistics for Data Analysis",
+        lectures: 5,
+        duration: "32 hr 36 min",
+        content: [
+          "Lecture 1: Mean and Median",
+          "Lecture 2: Probability",
+          "...",
+        ],
+      },
+    ],
+    price: 1999,
+    duration: "6 months",
   },
 ];

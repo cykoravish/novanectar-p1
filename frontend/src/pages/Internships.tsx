@@ -1,10 +1,20 @@
 import { useState } from "react";
 import internship from "../assets/internship.png";
-import { internshipData } from "../data/courses";
 import Footer from "../components/Footer";
+import EnrollmentModal from "../components/EnrollmentModal";
+import { internshipData } from "../data/courses";
 
 export default function Internships() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
+  const [isEnrollModalOpen, setIsEnrollModalOpen] = useState(false);
+  const [selectedInternship, setSelectedInternship] = useState({});
+  console.log("selectedInternship: ", selectedInternship)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const internshipHandler = (domain: any) => {
+    console.log("domain: ", domain);
+    const internshipCourse = internshipData.find((course) => course.id === domain.id);
+    setSelectedInternship(internshipCourse);
+  };
   return (
     <>
       <div className="max-w-6xl mx-auto p-4">
@@ -99,6 +109,7 @@ export default function Internships() {
                   }`}
                   onMouseEnter={() => setHoveredCard(domain.id)}
                   onMouseLeave={() => setHoveredCard(null)}
+                  onClick={() => internshipHandler(domain)}
                 >
                   {/* Card Image */}
                   <div className="h-48 overflow-hidden">
@@ -135,6 +146,11 @@ export default function Internships() {
                 </div>
               ))}
             </div>
+            <EnrollmentModal
+              isOpen={isEnrollModalOpen}
+              onClose={() => setIsEnrollModalOpen(false)}
+              course={selectedInternship}
+            />
           </div>
         </div>
       </div>

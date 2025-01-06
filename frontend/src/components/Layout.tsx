@@ -81,7 +81,7 @@ const Layout = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="flex flex-col gap-4 w-full items-center md:hidden bg-blue-100 p-4">
+          <div className="flex flex-col gap-4 w-full items-center md:hidden bg-blue-100 p-4 font-semibold">
             <button
               onClick={() => {
                 navigate("/");
@@ -97,6 +97,14 @@ const Layout = () => {
               }}
             >
               Courses
+            </button>
+            <button
+              onClick={() => {
+                navigate("/internships");
+                setIsMenuOpen(false);
+              }}
+            >
+              Internship
             </button>
             <button
               onClick={() => {
