@@ -550,28 +550,94 @@ export const programs = [
 
 export const testimonials = [
   {
-    name: "Maria Jadhav",
-    role: "Full Stack Developer",
-    company: "TECHWE Innovation Pvt Ltd.",
+    id: 1,
+    name: "Not Provided",
+    role: "Mean Full-stack Development ",
+    company: "NOVANECTAR",
     image: testimonialImages.testimonial1,
     feedback:
-      "Novanectar tech is providing skill training in various fields. This is the place where we achieve skill with happiness. Staff is kind, and teachers are helpful.",
+      "I recently completed the Mean Full-stack Development course at Novanectar and had a great experience. The instructors were knowledgeable, and the course materials were comprehensive. I have learnt a lot and started applying them in my current role.",
   },
   {
-    name: "Vaishnavi Singh",
-    role: "Full Stack Developer",
-    company: "TECHWE Innovation Pvt Ltd.",
+    id: 2,
+    name: "Shikha Yadav ",
+    role: "MERN Full-stack Development ",
+    company: "NOVANECTAR",
     image: testimonialImages.testimonial2,
     feedback:
-      "Novanectar tech is the good institute for machine learning. The institute provides knowledge from the base. It is a nice experience for me for learning machine learning.",
+      "I struggled to learn MERN Full-stack Development independently, but this course made it easy and fun. The instructors were supportive, and the assignments were challenging but made me learn a lot. I'm now confident about my skills. ",
   },
   {
-    name: "Anurag Negi",
-    role: "Full Stack Developer",
-    company: "TECHWE Innovation Pvt Ltd.",
+    id: 3,
+    name: "Shikha Yadav ",
+    role: "Python programming course",
+    company: "NOVANECTAR",
+    image: testimonialImages.testimonial2,
+    feedback:
+      "Novanectar's Python programming course was exactly what I needed to take my career to the next level. The course covered a wide range of topics, from data structures, to file operations and object-oriented programming. The instructors were experts in their field, and the course materials were well-structured. ",
+  },
+  {
+    id: 4,
+    name: "Atul Semwal",
+    role: "Back-end Development",
+    company: "NOVANECTAR",
     image: testimonialImages.testimonial3,
     feedback:
-      "My summer internship experience with Novanectar Tech has been phenomenal. I was impressed by the supportive staff. The team members were always approachable.",
+      "I've been interested in Back-end Development for a while, but I didn't know where to start. Novanectar's course was comprehensive and covered everything from server-side programming to database management. It helped me a lot.",
+  },
+  {
+    id: 5,
+    name: "Anshika Dixit",
+    role: "Front-end Development",
+    company: "NOVANECTAR",
+    image: testimonialImages.testimonial1,
+    feedback:
+      "At first, I was skeptical to start but Novanectar's Front-end Development course was an excellent introduction to the world of front-end development. The course covered a wide range of topics, from HTML and CSS to JavaScript and React. The instructors were supportive. It helped me in building responsive and interactive front-end applications.",
+  },
+  {
+    id: 6,
+    name: "R. Darshani",
+    role: "C++ Course",
+    company: "NOVANECTAR",
+    image: testimonialImages.testimonial2,
+    feedback:
+      "I was fascinated with learning C++ and got to know about Novanectar's C++ Course through their social media ad. The course was comprehensive and covered everything from basics to advanced topics. The instructors were experts in their field, and the course materials were well-structured. It helped me in writing efficient and effective C++ code.",
+  },
+  {
+    id: 7,
+    name: "Tisha Raheja",
+    role: "Java Programming course",
+    company: "NOVANECTAR",
+    image: testimonialImages.testimonial1,
+    feedback:
+      "Novanectar's Java Programming course covered a wide range of topics, from basics to advanced topics at a very good price. The instructors were supportive, the assignments were wonderful and helped me a lot with learning.",
+  },
+  {
+    id: 8,
+    name: "Priyanshu Kumar",
+    role: "Python Programming",
+    company: "NOVANECTAR",
+    image: testimonialImages.testimonial3,
+    feedback:
+      "I've been interested in Python Programming for a while, but couldn’t find any budget-friendly course. Novanectar's course was comprehensive and covered everything from basics to advanced topics at a very pocket-friendly amount. The instructors were very skilled and helpful, and the assignments were based on real-life practices. I'm now able to write efficient and effective Python code.",
+  },
+  {
+    id: 9,
+    name: "Priyanka Kaur",
+    role: "The web development",
+    company: "NOVANECTAR",
+    image: testimonialImages.testimonial1,
+    feedback:
+      "9.	In the beginning, I was reluctant and unsure about it, but decided to start. The web development course covered a wide range of topics, like HTML, CSS, and JavaScript. The instructors were very supportive, and skilled. It was a great experience for me.",
+  },
+  {
+    id: 10,
+    name: "Aditya Bhandari",
+    role: "Full-stack Development ",
+    company: "NOVANECTAR",
+    image: testimonialImages.testimonial3,
+    feedback:
+      "I recently completed the Full-stack Development course from Novanectar, and the quality of the training was very good. I've already started building my full-stack applications, and I'm excited to see where this new skill takes me.",
   },
 ];
 
