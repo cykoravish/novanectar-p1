@@ -14,4 +14,13 @@ const queryForm = async (req, res) => {
   }
 };
 
-export { queryForm };
+const healthCheck = (req, res) => {
+  try {
+    return res.status(200).json({ message: "api is up and running" });
+  } catch (error) {
+    console.log("error in health check api", error);
+    return res.status(500).json({ message: "Internal server error" });
+  }
+};
+
+export { queryForm, healthCheck };
