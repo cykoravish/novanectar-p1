@@ -47,9 +47,9 @@ export default function Landing() {
       {/* Content */}
       <div className="relative flex flex-col md:flex-row items-center justify-between text-white px-4 md:px-16 py-10 gap-10">
         {/* Left Content */}
-        <div className="max-w-lg space-y-6 text-center md:text-left">
+        <div className="max-w-lg space-y-6 pt-20 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Empower adult learners with{" "}
+            Empower adult learners with
             <span className="text-blue-500">In-Demand Skills</span> for
             tomorrow's jobs
           </h2>
@@ -68,7 +68,7 @@ export default function Landing() {
         {/* Right Content: Enquiry Form */}
         <form
           onSubmit={submitHandler}
-          className="bg-blue-200 text-black p-8 rounded-lg shadow-lg w-full max-w-md"
+          className="bg-blue-200 mt-20 text-black p-8 rounded-lg shadow-lg w-full max-w-md"
         >
           <h1 className="text-2xl font-bold mb-6">Enquiry Form</h1>
           <div className="space-y-4">

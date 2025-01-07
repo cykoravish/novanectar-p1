@@ -24,10 +24,10 @@ const Layout = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <>
       {/* Gradient background container */}
-      <div className="fixed top-0 left-0 right-0 h-24 z-40 bg-gradient-to-r from-blue-300 to-white" />
-      
+      <div className="fixed top-0 left-0 right-0 h-24 z-40" />
+
       {/* Header with navbar */}
       <header className="fixed top-0 left-0 right-0 z-50 px-4 py-2">
         <nav className="max-w-6xl mx-auto">
@@ -35,17 +35,12 @@ const Layout = () => {
           <div className="bg-white rounded-lg shadow-[2px_2px_10px_rgba(0,0,0,0.1)] border border-gray-100">
             <div className="flex justify-between items-center px-6 py-3">
               {/* Logo */}
-              <motion.div 
+              <motion.div
                 className="flex items-center"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
                 <img src={logo} alt="logo" className="w-40" />
-                {/* <div className="flex flex-col">
-                  <h1 className="text-lg font-bold text-gray-800">NOVANECTAR</h1>
-                  <span className="text-[10px] text-gray-500">SERVICES PVT. LTD.</span>
-                  <img src="" alt="" />
-                </div> */}
               </motion.div>
 
               {/* Desktop Menu */}
@@ -83,10 +78,14 @@ const Layout = () => {
                   stroke="currentColor"
                 >
                   <motion.path
-                    d={isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+                    d={
+                      isMenuOpen
+                        ? "M6 18L18 6M6 6l12 12"
+                        : "M4 6h16M4 12h16M4 18h16"
+                    }
                     variants={{
                       closed: { d: "M4 6h16M4 12h16M4 18h16" },
-                      open: { d: "M6 18L18 6M6 6l12 12" }
+                      open: { d: "M6 18L18 6M6 6l12 12" },
                     }}
                     initial="closed"
                     animate={isMenuOpen ? "open" : "closed"}
@@ -129,12 +128,11 @@ const Layout = () => {
           </div>
         </nav>
       </header>
-      <main className="flex-grow mt-24 w-full">
+      <main className="flex-grow w-full">
         <Outlet />
       </main>
-    </div>
+    </>
   );
 };
 
 export default Layout;
-

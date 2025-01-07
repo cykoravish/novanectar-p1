@@ -16,7 +16,7 @@ export default function Internships() {
   };
   return (
     <>
-      <div className="max-w-6xl mx-auto p-4">
+      <div className="max-w-6xl mx-auto p-4 mt-28">
         {/* Hero Section */}
         <div className="relative mb-8 rounded-lg overflow-hidden">
           <div className="relative h-[300px]">

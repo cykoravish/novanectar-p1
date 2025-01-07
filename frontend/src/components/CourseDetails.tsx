@@ -1,4 +1,3 @@
-
 // src/components/CourseDetails.tsx
 import { useParams, useNavigate } from "react-router-dom";
 import { coursesCards } from "../data/courses";
@@ -45,8 +44,7 @@ export default function CourseDetails() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
-      {/* Course Info Section */}
-      <div className="bg-white p-6 rounded-lg shadow-md">
+      <div className="bg-white p-6 rounded-lg shadow-md mt-20">
         <h1 className="text-3xl font-semibold mb-4">{course.title_}</h1>
         <p className="text-gray-600 mb-6 text-sm">{course.description_}</p>
         <div className="grid grid-cols-2 gap-4 mb-6">
@@ -66,6 +64,12 @@ export default function CourseDetails() {
             <li>🏆 {course.courseIncludes.certificate}</li>
             <li>📱 {course.courseIncludes.access}</li>
           </ul>
+          <div className="pt-6 font-semibold text-gray-700 text-lg flex items-center">
+            <span className="mr-2">Price:</span>
+            <span className="text-green-600 text-xl font-bold">
+              {course.price} Rs
+            </span>
+          </div>
         </div>
         <button
           onClick={() => setIsEnrollModalOpen(true)}
@@ -73,7 +77,7 @@ export default function CourseDetails() {
         >
           Enroll Now
         </button>
-        {/* Enrollment Modal */}
+
         <EnrollmentModal
           isOpen={isEnrollModalOpen}
           onClose={() => setIsEnrollModalOpen(false)}
