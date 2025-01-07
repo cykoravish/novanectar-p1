@@ -551,7 +551,7 @@ export const programs = [
 export const testimonials = [
   {
     id: 1,
-    name: "Not Provided",
+    name: "Gaurav Singh",
     role: "Mean Full-stack Development ",
     company: "NOVANECTAR",
     image: testimonialImages.testimonial1,
@@ -560,7 +560,7 @@ export const testimonials = [
   },
   {
     id: 2,
-    name: "Shikha Yadav ",
+    name: "Ankush Kumar",
     role: "MERN Full-stack Development ",
     company: "NOVANECTAR",
     image: testimonialImages.testimonial2,
@@ -569,7 +569,7 @@ export const testimonials = [
   },
   {
     id: 3,
-    name: "Shikha Yadav ",
+    name: "Narendra Singh Rana",
     role: "Python programming course",
     company: "NOVANECTAR",
     image: testimonialImages.testimonial2,
@@ -628,7 +628,7 @@ export const testimonials = [
     company: "NOVANECTAR",
     image: testimonialImages.testimonial1,
     feedback:
-      "9.	In the beginning, I was reluctant and unsure about it, but decided to start. The web development course covered a wide range of topics, like HTML, CSS, and JavaScript. The instructors were very supportive, and skilled. It was a great experience for me.",
+      "In the beginning, I was reluctant and unsure about it, but decided to start. The web development course covered a wide range of topics, like HTML, CSS, and JavaScript. The instructors were very supportive, and skilled. It was a great experience for me.",
   },
   {
     id: 10,
