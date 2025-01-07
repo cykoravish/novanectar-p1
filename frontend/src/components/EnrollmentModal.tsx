@@ -70,7 +70,6 @@ export default function EnrollmentModal({
     } else {
       return;
     }
-    console.log("handle payment running");
     handlePayment();
   };
 
@@ -147,7 +146,6 @@ export default function EnrollmentModal({
                 }),
               }
             );
-            console.log("verifyResponse", await verifyResponse.json());
 
             if (!verifyResponse.ok) {
               throw new Error("Payment verification failed");

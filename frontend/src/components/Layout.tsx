@@ -1,7 +1,7 @@
 import { NavLink, Outlet, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "../assets/logo.png";
+import logo from "../assets/nav-logo.png";
 
 const Layout = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,11 +40,12 @@ const Layout = () => {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
-                <img src={logo} alt="logo" className="w-8 h-8 mr-2" />
-                <div className="flex flex-col">
+                <img src={logo} alt="logo" className="w-40" />
+                {/* <div className="flex flex-col">
                   <h1 className="text-lg font-bold text-gray-800">NOVANECTAR</h1>
                   <span className="text-[10px] text-gray-500">SERVICES PVT. LTD.</span>
-                </div>
+                  <img src="" alt="" />
+                </div> */}
               </motion.div>
 
               {/* Desktop Menu */}
@@ -128,7 +129,6 @@ const Layout = () => {
           </div>
         </nav>
       </header>
-
       <main className="flex-grow mt-24 w-full">
         <Outlet />
       </main>

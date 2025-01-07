@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+
 // src/components/CourseDetails.tsx
 import { useParams, useNavigate } from "react-router-dom";
 import { coursesCards } from "../data/courses";
@@ -17,7 +17,6 @@ export default function CourseDetails() {
   const [isEnrollModalOpen, setIsEnrollModalOpen] = useState(false);
 
   const [openSections, setOpenSections] = useState<OpenSections>({});
-  console.log("openSession", openSections);
 
   const toggleSection = (section: number) => {
     setOpenSections((prevState) => ({
@@ -28,7 +27,6 @@ export default function CourseDetails() {
 
   // const course = coursesCards.find((course) => course.id === courseId) as Course;
   const course = coursesCards.find((course) => course.id === courseId);
-  // console.log("course: ", course);
   if (!course) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -81,7 +79,6 @@ export default function CourseDetails() {
           onClose={() => setIsEnrollModalOpen(false)}
           course={course}
         />
-        {/* {  console.log("isEnrollModalOpen: ", isEnrollModalOpen)} */}
         <div className="flex justify-between text-sm text-gray-900 max-w-lg mb-6">
           <p className="font-semibold text-balck">
             Number of learners:{" "}

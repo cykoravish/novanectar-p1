@@ -13,7 +13,6 @@ export const contacts = async (req,res) => {
       phoneNumber,
       email,
     });
-    console.log("query", query);
     return res.status(201).json({ query });
   } catch (error) {
     console.log("error in contacts: ", error);

@@ -6,7 +6,6 @@ import crypto from "crypto";
 const createOrder = async (req, res) => {
   try {
     const { courseId, amount, userId, name, email, phone } = req.body;
-    console.log("test1: ", courseId, amount, userId);
     // Create Razorpay order
     const options = {
       amount: amount * 100, // Amount in smallest currency unit (paise)
@@ -20,7 +19,6 @@ const createOrder = async (req, res) => {
     };
 
     const razorpayOrder = await razorpay.orders.create(options);
-    console.log("razorpay order", razorpayOrder);
     // Create order in database
     const order = new Order({
       courseId,
