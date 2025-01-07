@@ -64,7 +64,7 @@ export const coursesCards = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -128,7 +128,7 @@ export const coursesCards = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -192,7 +192,7 @@ export const coursesCards = [
         ],
       },
     ],
-    price: 1,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -256,7 +256,7 @@ export const coursesCards = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -320,7 +320,7 @@ export const coursesCards = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -384,7 +384,7 @@ export const coursesCards = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -448,7 +448,7 @@ export const coursesCards = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -512,7 +512,7 @@ export const coursesCards = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
 ];
@@ -731,7 +731,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -802,7 +802,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -873,7 +873,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -943,7 +943,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1013,7 +1013,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1083,7 +1083,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1153,7 +1153,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1223,7 +1223,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1293,7 +1293,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1363,7 +1363,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1433,7 +1433,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1501,7 +1501,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1569,7 +1569,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1637,7 +1637,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1705,7 +1705,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
   {
@@ -1773,7 +1773,7 @@ export const internshipData = [
         ],
       },
     ],
-    price: 1999,
+    price: 2999,
     duration: "6 months",
   },
 ];
